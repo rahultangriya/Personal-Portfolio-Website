@@ -1,0 +1,208 @@
+    body{
+            padding:0;
+            margin:0;
+            
+        }
+        @media (min-width:800px)
+        {
+            .cloud1
+            {
+                margin-right:200px;
+            }
+            .cloud2
+            {
+                margin-left:200px;
+            }
+            .myskills img
+            {
+                height:200px;
+                width:200px;
+            }
+        
+        }
+        @media(max-width:800px)
+        {
+            .cloud1
+            {
+                margin-right:50px;
+            }
+            .cloud2
+            {
+                margin-left: 20px;
+            }
+            .myskills img
+            {
+                height:150px;
+                width:150px;
+            }
+            .getintouchpara p
+            {
+                margin-left:10px;
+                padding-bottom:40px;
+            }
+
+        }
+
+        .partitionimg
+        {
+            display:flex;
+            justify-content: center;
+
+        }
+        
+        .cloud2
+        {
+            margin-top:-50px;
+            margin-bottom:-50px;
+        }
+        .cloud1{
+            margin-top:-50px;
+            margin-bottom:-50px;
+        }
+        .first
+        {
+            background-color:#8CE4FF;
+        }
+        .landingpage
+        {
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            background-color: #8CE4FF;
+            padding-top:40px;
+        }
+        .name
+        {
+            font-family:"Sacramento", cursive;
+            font-size:40px;
+            color:#ff751f;
+            margin-top:-30px;
+        }
+        .programmer
+        {
+            font-family:serif;
+            color:#ff751f;
+            margin-top:-60px;
+        }
+        .cloud1
+        {
+            align-self:flex-end;
+        }
+        .cloud2
+        {
+            align-self: flex-start;;
+        }
+        .mountain
+        {
+            align-self:center;
+            margin-top:-150px;
+            margin-bottom:-4px;
+        }
+        .about
+        {
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            padding-top:80px;
+            
+        }
+        .myskills
+        {
+            
+            display:grid;
+            grid-template-columns: 1fr 8fr 1fr;
+            grid-template-rows:1fr 5fr ;
+            padding-bottom:30px;
+        }
+        .myskills .heading
+        {
+            grid-column:2/3;
+            display: flex;
+            justify-content: center;
+            padding-bottom:10px;
+        }
+        .skill1
+        {
+            grid-column:2/3;
+            grid-row:2/3;
+            display:flex;
+            justify-content: center;
+            
+        }
+        .skill2 img
+        {
+            border-radius:5px;
+        }
+         .skill1 img
+         {
+            border-radius: 5px;
+         }
+        .skill2
+        {
+            grid-column:2/3;
+            grid-row:3/4;
+            display:flex;
+            margin-top:-100px;
+        }
+        
+        .getintouch
+        {
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            padding-bottom: 50px;
+        }
+        .para
+        {
+            padding-left:20px;
+            margin-top:-20px;
+        }
+        .footer
+        {
+            background-color: #8CE4FF;
+            padding-bottom:30px;
+            padding-top:50px;
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+        }
+        .links
+        {
+            display:flex;
+            gap:20px;
+            padding-bottom:30px;
+        }
+        .links a
+        {
+            text-decoration: none;
+            color:#3dc3ff;
+            font-family:sans-serif;
+        }
+        .heading
+        {
+            color:#8CE4FF;
+            font-family: sans-serif;
+            font-size:20px;
+        }
+        .getintouch .heading{ color:#3dc3ff; font-weight:lighter;margin-bottom:-10px;font-size:30px;}
+        .subheading{color:#3dc3ff; font-family:sans-serif;}
+        .getintouch a
+        {
+            background-color: #3dc3ff;
+            font-family:sans-serif;
+            padding:10px;
+            text-decoration: none;
+            border-radius: 30px;
+            margin-top:20px;
+            color:white;
+            
+        }
+        .copyright
+        {
+            color:white;
+        }
+        .personal-image
+        {
+            height:150px;
+            border-radius: 100px;
+        }
